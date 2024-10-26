@@ -1,0 +1,103 @@
+/* Body styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Header Styling */
+header h1 {
+    color: #007bff;
+    font-size: 2.5rem;
+}
+
+header p.lead {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+hr {
+    border: 1px solid #007bff;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+/* Header Images */
+.header-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-icon {
+    width: 60px;
+    height: auto;
+}
+
+/* Card Styling for File Upload */
+.card {
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon Styling for Upload Section */
+.upload-icon {
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Summary Section Styling */
+#summary {
+    font-size: 1.1rem;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+}
+
+#summary h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Results Table */
+.table {
+    font-size: 1rem;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.table-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Icons */
+.bi {
+    margin-right: 8px;
+}
